@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103D1F7D286F7E0F00D0AEB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D1F7C286F7E0F00D0AEB9 /* AppDelegate.swift */; };
+		103D1F7F286F7E0F00D0AEB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D1F7E286F7E0F00D0AEB9 /* SceneDelegate.swift */; };
+		103D1F81286F7E0F00D0AEB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D1F80286F7E0F00D0AEB9 /* ViewController.swift */; };
+		103D1F84286F7E0F00D0AEB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103D1F82286F7E0F00D0AEB9 /* Main.storyboard */; };
+		103D1F87286F7E0F00D0AEB9 /* Black_Background_Embedding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 103D1F85286F7E0F00D0AEB9 /* Black_Background_Embedding.xcdatamodeld */; };
+		103D1F89286F7E1200D0AEB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103D1F88286F7E1200D0AEB9 /* Assets.xcassets */; };
+		103D1F8C286F7E1200D0AEB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103D1F8A286F7E1200D0AEB9 /* LaunchScreen.storyboard */; };
+		103D1F97286F7E1200D0AEB9 /* Black_Background_EmbeddingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D1F96286F7E1200D0AEB9 /* Black_Background_EmbeddingTests.swift */; };
+		103D1FA1286F7E1200D0AEB9 /* Black_Background_EmbeddingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D1FA0286F7E1200D0AEB9 /* Black_Background_EmbeddingUITests.swift */; };
+		103D1FA3286F7E1200D0AEB9 /* Black_Background_EmbeddingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D1FA2286F7E1200D0AEB9 /* Black_Background_EmbeddingUITestsLaunchTests.swift */; };
+		103D1FB0286F7E6E00D0AEB9 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D1FAF286F7E6E00D0AEB9 /* FavouriteViewController.swift */; };
+		103D1FB2286F7EA200D0AEB9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D1FB1286F7EA200D0AEB9 /* MainTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		103D1F93286F7E1200D0AEB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103D1F71286F7E0F00D0AEB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103D1F78286F7E0F00D0AEB9;
+			remoteInfo = "Black Background Embedding";
+		};
+		103D1F9D286F7E1200D0AEB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103D1F71286F7E0F00D0AEB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103D1F78286F7E0F00D0AEB9;
+			remoteInfo = "Black Background Embedding";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		103D1F79286F7E0F00D0AEB9 /* Black Background Embedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black Background Embedding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		103D1F7C286F7E0F00D0AEB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		103D1F7E286F7E0F00D0AEB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		103D1F80286F7E0F00D0AEB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		103D1F83286F7E0F00D0AEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		103D1F86286F7E0F00D0AEB9 /* Black_Background_Embedding.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Black_Background_Embedding.xcdatamodel; sourceTree = "<group>"; };
+		103D1F88286F7E1200D0AEB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		103D1F8B286F7E1200D0AEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		103D1F8D286F7E1200D0AEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103D1F92286F7E1200D0AEB9 /* Black Background EmbeddingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black Background EmbeddingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		103D1F96286F7E1200D0AEB9 /* Black_Background_EmbeddingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_Background_EmbeddingTests.swift; sourceTree = "<group>"; };
+		103D1F9C286F7E1200D0AEB9 /* Black Background EmbeddingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black Background EmbeddingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		103D1FA0286F7E1200D0AEB9 /* Black_Background_EmbeddingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_Background_EmbeddingUITests.swift; sourceTree = "<group>"; };
+		103D1FA2286F7E1200D0AEB9 /* Black_Background_EmbeddingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_Background_EmbeddingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		103D1FAF286F7E6E00D0AEB9 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		103D1FB1286F7EA200D0AEB9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		103D1F76286F7E0F00D0AEB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103D1F8F286F7E1200D0AEB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103D1F99286F7E1200D0AEB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103D1F70286F7E0F00D0AEB9 = {
+			isa = PBXGroup;
+			children = (
+				103D1F7B286F7E0F00D0AEB9 /* Black Background Embedding */,
+				103D1F95286F7E1200D0AEB9 /* Black Background EmbeddingTests */,
+				103D1F9F286F7E1200D0AEB9 /* Black Background EmbeddingUITests */,
+				103D1F7A286F7E0F00D0AEB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		103D1F7A286F7E0F00D0AEB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				103D1F79286F7E0F00D0AEB9 /* Black Background Embedding.app */,
+				103D1F92286F7E1200D0AEB9 /* Black Background EmbeddingTests.xctest */,
+				103D1F9C286F7E1200D0AEB9 /* Black Background EmbeddingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		103D1F7B286F7E0F00D0AEB9 /* Black Background Embedding */ = {
+			isa = PBXGroup;
+			children = (
+				109D781B2871E5D10084A10C /* Model */,
+				109D78192871E5A70084A10C /* Controller */,
+				109D781A2871E5BC0084A10C /* View */,
+				109D781C2871E5EB0084A10C /* Storyboard */,
+				103D1F8D286F7E1200D0AEB9 /* Info.plist */,
+				103D1F85286F7E0F00D0AEB9 /* Black_Background_Embedding.xcdatamodeld */,
+			);
+			path = "Black Background Embedding";
+			sourceTree = "<group>";
+		};
+		103D1F95286F7E1200D0AEB9 /* Black Background EmbeddingTests */ = {
+			isa = PBXGroup;
+			children = (
+				103D1F96286F7E1200D0AEB9 /* Black_Background_EmbeddingTests.swift */,
+			);
+			path = "Black Background EmbeddingTests";
+			sourceTree = "<group>";
+		};
+		103D1F9F286F7E1200D0AEB9 /* Black Background EmbeddingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				103D1FA0286F7E1200D0AEB9 /* Black_Background_EmbeddingUITests.swift */,
+				103D1FA2286F7E1200D0AEB9 /* Black_Background_EmbeddingUITestsLaunchTests.swift */,
+			);
+			path = "Black Background EmbeddingUITests";
+			sourceTree = "<group>";
+		};
+		109D78192871E5A70084A10C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				103D1FB1286F7EA200D0AEB9 /* MainTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		109D781A2871E5BC0084A10C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				103D1F80286F7E0F00D0AEB9 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		109D781B2871E5D10084A10C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				103D1F7C286F7E0F00D0AEB9 /* AppDelegate.swift */,
+				103D1F7E286F7E0F00D0AEB9 /* SceneDelegate.swift */,
+				103D1FAF286F7E6E00D0AEB9 /* FavouriteViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		109D781C2871E5EB0084A10C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				103D1F8A286F7E1200D0AEB9 /* LaunchScreen.storyboard */,
+				103D1F88286F7E1200D0AEB9 /* Assets.xcassets */,
+				103D1F82286F7E0F00D0AEB9 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		103D1F78286F7E0F00D0AEB9 /* Black Background Embedding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103D1FA6286F7E1200D0AEB9 /* Build configuration list for PBXNativeTarget "Black Background Embedding" */;
+			buildPhases = (
+				103D1F75286F7E0F00D0AEB9 /* Sources */,
+				103D1F76286F7E0F00D0AEB9 /* Frameworks */,
+				103D1F77286F7E0F00D0AEB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Black Background Embedding";
+			productName = "Black Background Embedding";
+			productReference = 103D1F79286F7E0F00D0AEB9 /* Black Background Embedding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		103D1F91286F7E1200D0AEB9 /* Black Background EmbeddingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103D1FA9286F7E1200D0AEB9 /* Build configuration list for PBXNativeTarget "Black Background EmbeddingTests" */;
+			buildPhases = (
+				103D1F8E286F7E1200D0AEB9 /* Sources */,
+				103D1F8F286F7E1200D0AEB9 /* Frameworks */,
+				103D1F90286F7E1200D0AEB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				103D1F94286F7E1200D0AEB9 /* PBXTargetDependency */,
+			);
+			name = "Black Background EmbeddingTests";
+			productName = "Black Background EmbeddingTests";
+			productReference = 103D1F92286F7E1200D0AEB9 /* Black Background EmbeddingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		103D1F9B286F7E1200D0AEB9 /* Black Background EmbeddingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103D1FAC286F7E1200D0AEB9 /* Build configuration list for PBXNativeTarget "Black Background EmbeddingUITests" */;
+			buildPhases = (
+				103D1F98286F7E1200D0AEB9 /* Sources */,
+				103D1F99286F7E1200D0AEB9 /* Frameworks */,
+				103D1F9A286F7E1200D0AEB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				103D1F9E286F7E1200D0AEB9 /* PBXTargetDependency */,
+			);
+			name = "Black Background EmbeddingUITests";
+			productName = "Black Background EmbeddingUITests";
+			productReference = 103D1F9C286F7E1200D0AEB9 /* Black Background EmbeddingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		103D1F71286F7E0F00D0AEB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					103D1F78286F7E0F00D0AEB9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					103D1F91286F7E1200D0AEB9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 103D1F78286F7E0F00D0AEB9;
+					};
+					103D1F9B286F7E1200D0AEB9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 103D1F78286F7E0F00D0AEB9;
+					};
+				};
+			};
+			buildConfigurationList = 103D1F74286F7E0F00D0AEB9 /* Build configuration list for PBXProject "Black Background Embedding" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 103D1F70286F7E0F00D0AEB9;
+			productRefGroup = 103D1F7A286F7E0F00D0AEB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				103D1F78286F7E0F00D0AEB9 /* Black Background Embedding */,
+				103D1F91286F7E1200D0AEB9 /* Black Background EmbeddingTests */,
+				103D1F9B286F7E1200D0AEB9 /* Black Background EmbeddingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		103D1F77286F7E0F00D0AEB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103D1F8C286F7E1200D0AEB9 /* LaunchScreen.storyboard in Resources */,
+				103D1F89286F7E1200D0AEB9 /* Assets.xcassets in Resources */,
+				103D1F84286F7E0F00D0AEB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103D1F90286F7E1200D0AEB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103D1F9A286F7E1200D0AEB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		103D1F75286F7E0F00D0AEB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103D1F81286F7E0F00D0AEB9 /* ViewController.swift in Sources */,
+				103D1F87286F7E0F00D0AEB9 /* Black_Background_Embedding.xcdatamodeld in Sources */,
+				103D1FB2286F7EA200D0AEB9 /* MainTabBarController.swift in Sources */,
+				103D1F7D286F7E0F00D0AEB9 /* AppDelegate.swift in Sources */,
+				103D1FB0286F7E6E00D0AEB9 /* FavouriteViewController.swift in Sources */,
+				103D1F7F286F7E0F00D0AEB9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103D1F8E286F7E1200D0AEB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103D1F97286F7E1200D0AEB9 /* Black_Background_EmbeddingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103D1F98286F7E1200D0AEB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103D1FA3286F7E1200D0AEB9 /* Black_Background_EmbeddingUITestsLaunchTests.swift in Sources */,
+				103D1FA1286F7E1200D0AEB9 /* Black_Background_EmbeddingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		103D1F94286F7E1200D0AEB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103D1F78286F7E0F00D0AEB9 /* Black Background Embedding */;
+			targetProxy = 103D1F93286F7E1200D0AEB9 /* PBXContainerItemProxy */;
+		};
+		103D1F9E286F7E1200D0AEB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103D1F78286F7E0F00D0AEB9 /* Black Background Embedding */;
+			targetProxy = 103D1F9D286F7E1200D0AEB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		103D1F82286F7E0F00D0AEB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				103D1F83286F7E0F00D0AEB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		103D1F8A286F7E1200D0AEB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				103D1F8B286F7E1200D0AEB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		103D1FA4286F7E1200D0AEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		103D1FA5286F7E1200D0AEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		103D1FA7286F7E1200D0AEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9ZVULXTV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Black Background Embedding/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamal-Gumasov.Black-Background-Embedding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		103D1FA8286F7E1200D0AEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9ZVULXTV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Black Background Embedding/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamal-Gumasov.Black-Background-Embedding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		103D1FAA286F7E1200D0AEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9ZVULXTV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamal-Gumasov.Black-Background-EmbeddingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black Background Embedding.app/Black Background Embedding";
+			};
+			name = Debug;
+		};
+		103D1FAB286F7E1200D0AEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9ZVULXTV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamal-Gumasov.Black-Background-EmbeddingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black Background Embedding.app/Black Background Embedding";
+			};
+			name = Release;
+		};
+		103D1FAD286F7E1200D0AEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9ZVULXTV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamal-Gumasov.Black-Background-EmbeddingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Black Background Embedding";
+			};
+			name = Debug;
+		};
+		103D1FAE286F7E1200D0AEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9ZVULXTV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jamal-Gumasov.Black-Background-EmbeddingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Black Background Embedding";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		103D1F74286F7E0F00D0AEB9 /* Build configuration list for PBXProject "Black Background Embedding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103D1FA4286F7E1200D0AEB9 /* Debug */,
+				103D1FA5286F7E1200D0AEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103D1FA6286F7E1200D0AEB9 /* Build configuration list for PBXNativeTarget "Black Background Embedding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103D1FA7286F7E1200D0AEB9 /* Debug */,
+				103D1FA8286F7E1200D0AEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103D1FA9286F7E1200D0AEB9 /* Build configuration list for PBXNativeTarget "Black Background EmbeddingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103D1FAA286F7E1200D0AEB9 /* Debug */,
+				103D1FAB286F7E1200D0AEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103D1FAC286F7E1200D0AEB9 /* Build configuration list for PBXNativeTarget "Black Background EmbeddingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103D1FAD286F7E1200D0AEB9 /* Debug */,
+				103D1FAE286F7E1200D0AEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		103D1F85286F7E0F00D0AEB9 /* Black_Background_Embedding.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				103D1F86286F7E0F00D0AEB9 /* Black_Background_Embedding.xcdatamodel */,
+			);
+			currentVersion = 103D1F86286F7E0F00D0AEB9 /* Black_Background_Embedding.xcdatamodel */;
+			path = Black_Background_Embedding.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 103D1F71286F7E0F00D0AEB9 /* Project object */;
+}

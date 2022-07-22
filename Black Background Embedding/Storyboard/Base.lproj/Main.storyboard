@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Black_Background_Embedding" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Montain" translatesAutoresizingMaskIntoConstraints="NO" id="jqU-Ta-oM1">
+                                <rect key="frame" x="0.0" y="44" width="428" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="60X-5n-qqU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Large title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5K-pa-HVt">
+                                <rect key="frame" x="20" y="352" width="162" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BKE-bb-JB9">
+                                <rect key="frame" x="20" y="396" width="388" height="369"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Эльбрус — высочайшая вершина России. Она находится на Северном Кавказе, где проходит граница между Кабардино-Балкарией и Карачаево-Черкесией. Ближайшие крупные города — Минеральные Воды, Нальчик, Пятигорск. Эльбрус считается эталоном природной красоты и символом здорового образа жизни. Недавно легендарная вершина стала лауреатом конкурса «7 чудес России».
+
+АНАТОМИЯ ЭЛЬБРУСА
+
+Со стороны Эльбрус напоминает двугорбого верблюда, поскольку имеет сразу две вершины. Одна выше другой всего на два десятка метров. Западная достигает высоты 5642 м. Восточная чуть ниже — 5621 м. Издалека создаётся впечатление, что они расположены совсем рядом друг с другом. На самом деле между ними почти полтора километра. Разделяет вершины так называемая седловина Эльбруса. Крутизна скал в среднем составляет 350.
+
+Существует почётный мировой рейтинг, который назвали «Семь вершин». В него входят высочайшие горы с шести частей света. В Европе лидирует Эльбрус. Второе место занимает Монблан. Он отстаёт от своего кавказского конкурента на целых 832 м! Нюанс в том, что имеется несколько методик определения границы между Европой и Азией. Эльбрус считается «европейцем» в том случае, если её проводят по Большому Кавказскому хребту. Из-за неопределённости в рейтинг включили обе вершины — Эльбрус и Монблан.
+
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZB-h4-xGG">
+                                <rect key="frame" x="135" y="814" width="158" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Open photo">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.18039215689999999" green="0.41960784309999999" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="zIS-Qe-vD7" kind="show" id="CJg-R7-sw8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dz-Fj-dbh">
+                                <rect key="frame" x="0.0" y="44" width="428" height="300"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="zIS-Qe-vD7" kind="show" id="4VW-mh-tAO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8dz-Fj-dbh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2cm-id-0VG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zZB-h4-xGG" secondAttribute="bottom" constant="47" id="3JM-yy-Hgu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BKE-bb-JB9" secondAttribute="trailing" constant="20" id="6tt-uZ-qeW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zZB-h4-xGG" secondAttribute="trailing" constant="135" id="7xM-Ct-awT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BKE-bb-JB9" secondAttribute="bottom" constant="127" id="DfB-BD-BtB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jqU-Ta-oM1" secondAttribute="trailing" id="E2U-WZ-3At"/>
+                            <constraint firstItem="B5K-pa-HVt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GKO-vV-H1t"/>
+                            <constraint firstItem="8dz-Fj-dbh" firstAttribute="leading" secondItem="jqU-Ta-oM1" secondAttribute="leading" id="GhJ-Xa-EOp"/>
+                            <constraint firstItem="B5K-pa-HVt" firstAttribute="top" secondItem="jqU-Ta-oM1" secondAttribute="bottom" constant="8" symbolic="YES" id="V4D-uX-zr1"/>
+                            <constraint firstItem="jqU-Ta-oM1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="X9e-pL-pK0"/>
+                            <constraint firstItem="jqU-Ta-oM1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XKh-CJ-CNs"/>
+                            <constraint firstItem="BKE-bb-JB9" firstAttribute="top" secondItem="B5K-pa-HVt" secondAttribute="bottom" constant="8" symbolic="YES" id="c7M-IA-U46"/>
+                            <constraint firstItem="zZB-h4-xGG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="jeH-dz-4tR"/>
+                            <constraint firstItem="BKE-bb-JB9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="k2M-G3-hcL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B5K-pa-HVt" secondAttribute="trailing" constant="246" id="kMa-bj-fbB"/>
+                            <constraint firstItem="B5K-pa-HVt" firstAttribute="top" secondItem="8dz-Fj-dbh" secondAttribute="bottom" constant="8" symbolic="YES" id="rBb-k0-4D7"/>
+                            <constraint firstItem="8dz-Fj-dbh" firstAttribute="trailing" secondItem="jqU-Ta-oM1" secondAttribute="trailing" id="wyK-Bq-DDx"/>
+                            <constraint firstItem="zZB-h4-xGG" firstAttribute="top" secondItem="BKE-bb-JB9" secondAttribute="bottom" constant="49" id="xlQ-0y-9hq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-420.56074766355135" y="99.136069114470843"/>
+        </scene>
+        <!--Large photo -->
+        <scene sceneID="vhp-eK-vjj">
+            <objects>
+                <tableViewController id="zIS-Qe-vD7" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="shq-CJ-lhW">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <imageView key="tableFooterView" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Montain" id="yWR-bt-ZUc">
+                            <rect key="frame" x="0.0" y="111" width="428" height="734"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="LlH-l3-9Gs">
+                                <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LlH-l3-9Gs" id="EQR-Rk-ap5">
+                                    <rect key="frame" x="0.0" y="0.0" width="428" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zIS-Qe-vD7" id="vgK-4r-cxH"/>
+                            <outlet property="delegate" destination="zIS-Qe-vD7" id="iYe-12-GDD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Large photo " id="HcG-Jn-5uc"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cab-ri-OBC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1268.6915887850466" y="98.488120950323975"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pgb-Qy-wvV">
+            <objects>
+                <navigationController id="RzT-dc-7he" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C3l-kl-rC3">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zIS-Qe-vD7" kind="relationship" relationship="rootViewController" id="KRB-4h-PyS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ahr-3W-Qm4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="418" y="99"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="KRB-4h-PyS"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="Montain" width="2388" height="1586"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
